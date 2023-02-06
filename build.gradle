@@ -6,3 +6,5 @@ plugins {
     id 'com.google.dagger.hilt.android' version '2.44' apply false
  //   classpath 'com.google.dagger:hilt-android-gradle-plugin:2.38.1'
 }
+
+

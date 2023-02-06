@@ -33,7 +33,9 @@ class PagingAdapter :
     }
 
 
-    class QuoteViewHolder(val binding: ItemQuoteBinding) : RecyclerView.ViewHolder(binding.root)
+  inner  class QuoteViewHolder(val binding: ItemQuoteBinding) : RecyclerView.ViewHolder(binding.root)
+
+
     companion object {
         private val Comparator =
             object : DiffUtil.ItemCallback<Result>() {
